@@ -29,3 +29,37 @@ Subotiz 的 AI 生态与工具仓库，为 Cursor 等 AI 开发环境提供 Subo
 **Subotiz** · weihanlai@shoplazza.com  
 
 许可见 [LICENSE](LICENSE)。
+
+---
+
+# Subotiz AI (English)
+
+Subotiz AI tools and ecosystem for Cursor and other AI dev environments. Integrate and debug Subotiz payments and subscriptions from chat and code.
+
+[Subotiz](https://subotiz.com) is a **payment and subscription platform** for SaaS and digital businesses, with unified APIs, checkout (hosted and embedded), refunds, customer management, and webhooks.
+
+## Repository contents
+
+| Path | Description |
+|------|-------------|
+| `plugin/cursor/subotiz-plugin/` | **Cursor plugin**: Subotiz dev tools in Cursor (payments, subscriptions, MCP, Skill) |
+
+### Cursor plugin (subotiz-plugin)
+
+- **Payments & subscriptions**: Integrate with Subotiz payments and subscriptions for development and debugging
+- **MCP**: Call Subotiz tools from chat via [Model Context Protocol](https://modelcontextprotocol.io/) (use `mcp_auth` when authentication is required)
+- **Skill**: Built-in Subotiz skill so the AI can use API docs, checkout flows, webhooks, and status enums for integration and troubleshooting
+
+Install and configure: [plugin/cursor/subotiz-plugin/README.md](plugin/cursor/subotiz-plugin/README.md)
+
+## Quick start
+
+1. Clone this repository
+2. Install and enable `plugin/cursor/subotiz-plugin` in Cursor
+3. Use chat to integrate or debug Subotiz (checkout, API, webhooks, etc.)
+
+## Author & license
+
+**Subotiz** · weihanlai@shoplazza.com  
+
+See [LICENSE](LICENSE).
