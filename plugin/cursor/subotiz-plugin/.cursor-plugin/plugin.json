@@ -11,5 +11,5 @@
         "payment",
         "subscription"
     ],
-    "logo": "assets/subotiz.svg"
+    "logo": "https://raw.githubusercontent.com/Subotiz/AI/4576b216a2c70438473c5c83200771bde01a6bb6/plugin/cursor/subotiz-plugin/assets/subotiz.svg"
 }
