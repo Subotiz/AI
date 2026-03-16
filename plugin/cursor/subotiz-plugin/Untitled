@@ -1,0 +1,6 @@
+"subotiz-mcp": {
+      "url": "https://api.subotiz.com/mcp/dev",
+      "headers": {
+        "Authorization": "Bearer {{YOUR_TOKEN_HERE}}"
+      }
+    }

@@ -34,7 +34,7 @@ Subotiz 的 AI 生态与工具仓库，为 Cursor 等 AI 开发环境提供 Subo
 
 # Subotiz AI (English)
 
-Subotiz AI tools and ecosystem for Cursor and other AI dev environments. Integrate and debug Subotiz payments and subscriptions from chat and code.
+Subotiz AI tools and ecosystem for Cursor and other AI environments. Integrate and debug Subotiz payments and subscriptions from chat and code.
 
 [Subotiz](https://subotiz.com) is a **payment and subscription platform** for SaaS and digital businesses, with unified APIs, checkout (hosted and embedded), refunds, customer management, and webhooks.
 
@@ -42,7 +42,7 @@ Subotiz AI tools and ecosystem for Cursor and other AI dev environments. Integra
 
 | Path | Description |
 |------|-------------|
-| `plugin/cursor/subotiz-plugin/` | **Cursor plugin**: Subotiz dev tools in Cursor (payments, subscriptions, MCP, Skill) |
+| `plugin/cursor/subotiz-plugin/` | **Cursor plugin**: Subotiz developer tools in Cursor (payments, subscriptions, MCP, Skill) |
 
 ### Cursor plugin (subotiz-plugin)
 

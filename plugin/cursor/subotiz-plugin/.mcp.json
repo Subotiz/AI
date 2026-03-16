@@ -1,0 +1,10 @@
+{
+    "mcpServers": {
+        "subotiz-mcp": {
+            "url": "https://api.subotiz.com/mcp",
+            "headers": {
+                "Authorization": "Bearer {{YOUR_TOKEN_HERE}}"
+            }
+        }
+    }
+}
