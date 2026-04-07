@@ -1,0 +1,41 @@
+{
+    "name": "subotiz",
+    "owner": {
+        "name": "Subotiz",
+        "email": "weihanlai@shoplazza.com"
+    },
+    "metadata": {
+        "description": "Official Subotiz marketplace for Claude Code: payments, subscriptions, MCP, and skills.",
+        "version": "1.0.0"
+    },
+    "plugins": [
+        {
+            "name": "subotiz-plugin",
+            "source": "./",
+            "description": "Subotiz development tools with payment and subscription management, MCP integration, and bundled Subotiz skill.",
+            "version": "0.0.1",
+            "author": {
+                "name": "Subotiz",
+                "email": "weihanlai@shoplazza.com"
+            },
+            "homepage": "https://subotiz.com",
+            "repository": "https://github.com/Subotiz/AI",
+            "license": "MIT",
+            "keywords": [
+                "subotiz",
+                "payment",
+                "subscription",
+                "mcp",
+                "checkout",
+                "billing"
+            ],
+            "category": "developer-tools",
+            "tags": [
+                "payments",
+                "subscriptions",
+                "saas",
+                "mcp"
+            ]
+        }
+    ]
+}
