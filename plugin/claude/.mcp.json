@@ -1,0 +1,15 @@
+{
+    "mcpServers": {
+        "subotiz-mcp-proxy": {
+            "command": "mcp-proxy",
+            "env": {
+                "API_ACCESS_TOKEN": "{{YOUR_TOKEN_HERE}}"
+            },
+            "args": [
+                "--transport",
+                "streamablehttp",
+                "https://api.subotiz.com/mcp"
+            ]
+        }
+    }
+}

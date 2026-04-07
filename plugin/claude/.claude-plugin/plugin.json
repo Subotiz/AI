@@ -1,0 +1,18 @@
+{
+    "name": "subotiz-plugin",
+    "version": "0.0.1",
+    "description": "Subotiz development tools with payment and subscription management etc.",
+    "author": {
+        "name": "Subotiz",
+        "email": "weihanlai@shoplazza.com"
+    },
+    "keywords": [
+        "subotiz",
+        "payment",
+        "subscription"
+    ],
+    "repository": "https://github.com/author/plugin",
+    "license": "MIT",
+    "skills": "./skills/",
+    "mcpServers": "./mcp.json"
+}
