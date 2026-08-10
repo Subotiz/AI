@@ -83,17 +83,17 @@ You might be reading this file in very different contexts. Here's how to figure 
 
 | Resource            | URL |
 |---------------------|-----|
-| Developer Center    | <https://developer.subotiz.com> |
-| API Reference (v1.0) | <https://developer.subotiz.com/v1.0-en-us/reference/overview-1> |
-| Introduction (API)  | <https://developer.subotiz.com/reference/introduction-1> |
-| Authentication (Bearer) | <https://developer.subotiz.com/reference/authentication-1> |
-| Authentication (Signature) | <https://developer.subotiz.com/reference/authentication-2> |
-| Webhooks            | <https://developer.subotiz.com/reference/introduction-2> |
-| Subotiz SDK         | <https://developer.subotiz.com/reference/subotiz-sdk> |
-| Quick Start         | <https://developer.subotiz.com/reference/quick-start> |
-| Hosted Checkout     | <https://developer.subotiz.com/reference/hosted> |
-| Embedded Checkout   | <https://developer.subotiz.com/reference/embedded-form> |
-| Embedded Payment    | <https://developer.subotiz.com/reference/embedded-form-payment> |
+| Developer Center    | <https://docs.subotiz.com/en> |
+| API Reference (v1.0) | <https://docs.subotiz.com/en/quick-start/overview> |
+| Introduction (API)  | <https://docs.subotiz.com/en/api/introduction-1> |
+| Authentication (Bearer) | <https://docs.subotiz.com/en/api/authentication-1> |
+| Authentication (Signature) | <https://docs.subotiz.com/en/api/authentication-1> |
+| Webhooks            | <https://docs.subotiz.com/en/webhook/introduction-2> |
+| Subotiz SDK         | <https://docs.subotiz.com/en/resources/subotiz-sdk> |
+| Quick Start         | <https://docs.subotiz.com/en/quick-start/quick-start> |
+| Hosted Checkout     | <https://docs.subotiz.com/en/integration/hosted> |
+| Embedded Checkout   | <https://docs.subotiz.com/en/integration/embedded-form> |
+| Embedded Payment    | <https://docs.subotiz.com/en/integration/embedded-form-payment> |
 | Dashboard (Production) | <https://admin.subotiz.com> |
 | Dashboard (Sandbox) | <https://admin.sandbox.subotiz.com> |
 
@@ -211,36 +211,36 @@ result = calc_signature("your_access_secret", signature_string)
 
 | Method | Path | Description | Docs |
 |--------|------|-------------|------|
-| `POST` | `/api/v1/session` | Create Checkout Session | [Link](https://developer.subotiz.com/reference/v1-checkout-session-create-checkout-session) |
-| `POST` | `/api/v1/trade` | Create Trade | [Link](https://developer.subotiz.com/reference/v1-trade-create-trade) |
-| `GET` | `/api/v1/trade/{trade_id}` | Get Trade | [Link](https://developer.subotiz.com/reference/v1-trade-get-trade) |
-| `GET` | `/api/v1/trades` | List Trades | [Link](https://developer.subotiz.com/reference/v1-trade-list-trade) |
-| `GET` | `/api/v1/subscription/{id}` | Get Subscription | [Link](https://developer.subotiz.com/reference/v1-subscription-get-subscription) |
-| `POST` | `/api/v1/subscription/{id}/cancel` | Cancel Subscription | [Link](https://developer.subotiz.com/reference/v1-subscription-cancel-subscription) |
-| `POST` | `/api/v1/subscription/{id}/resume` | Resume Subscription | [Link](https://developer.subotiz.com/reference/v1-subscription-resume-subscription) |
-| `POST` | `/api/v1/subscription/{id}/renewal` | Renewal Subscription | [Link](https://developer.subotiz.com/reference/v1-subscription-renewal-subscription) |
-| `POST` | `/api/v1/subscription/{id}/revoke-cancel` | Revoke Cancel | [Link](https://developer.subotiz.com/reference/v1-subscription-revoke-cancel-subscription) |
-| `GET` | `/api/v1/subscription/{id}/usage` | Get Usage | [Link](https://developer.subotiz.com/reference/v1-subscription-get-subscription-usage) |
-| `POST` | `/api/v1/subscription/{id}/usage` | Record Usage | [Link](https://developer.subotiz.com/reference/v1-subscription-record-subscription-usage) |
-| `POST` | `/api/v1/refund` | Create Refund | [Link](https://developer.subotiz.com/reference/v1-refund-create-refund) |
-| `GET` | `/api/v1/refund/{refund_id}` | Get Refund | [Link](https://developer.subotiz.com/reference/v1-refund-get-refund) |
-| `GET` | `/api/v1/refunds` | List Refunds | [Link](https://developer.subotiz.com/reference/v1-refund-list-refund) |
-| `GET` | `/api/v1/customer/{id}` | Get Customer | [Link](https://developer.subotiz.com/reference/v1-customer-get-customer) |
-| `GET` | `/api/v1/customers` | List Customers | [Link](https://developer.subotiz.com/reference/v1-customer-list-customer) |
-| `PUT` | `/api/v1/customer/{id}` | Update Customer | [Link](https://developer.subotiz.com/reference/v1-customer-update-customer) |
-| `DELETE` | `/api/v1/customer/{id}` | Delete Customer | [Link](https://developer.subotiz.com/reference/v1-customer-delete-customer) |
-| `GET` | `/api/v1/products` | List Products | [Link](https://developer.subotiz.com/reference/v1-product-list-product) |
-| `GET` | `/api/v1/product/{id}/versions` | List Product Versions | [Link](https://developer.subotiz.com/reference/v1-product-list-product-version) |
-| `POST` | `/api/v1/product/{id}/status` | Change Product Status | [Link](https://developer.subotiz.com/reference/v1-product-change-product-status) |
-| `GET` | `/api/v1/prices` | List Prices | [Link](https://developer.subotiz.com/reference/v1-price-list-price) |
-| `GET` | `/api/v1/price/{id}/versions` | List Price Versions | [Link](https://developer.subotiz.com/reference/v1-price-list-price-version) |
-| `GET` | `/api/v1/discounts` | List Discounts | [Link](https://developer.subotiz.com/reference/v1-discount-list-discount) |
-| `GET` | `/api/v1/discount/{id}` | Get Discount | [Link](https://developer.subotiz.com/reference/v1-discount-get-discount) |
-| `POST` | `/api/v1/discount/{id}/end` | End Discount | [Link](https://developer.subotiz.com/reference/v1-discount-end-discount) |
-| `GET` | `/api/v1/invoice/{id}` | Get Invoice | [Link](https://developer.subotiz.com/reference/v1-invoice-get-invoice) |
-| `POST` | `/api/v1/customer-portal/auth` | Customer Portal Auth | [Link](https://developer.subotiz.com/reference/v1-customer-portal-api-auth) |
-| `GET` | `/api/v1/webhooks/endpoints` | List Webhook Endpoints | [Link](https://developer.subotiz.com/reference/v1-webhook-list-endpoint) |
-| `GET` | `/api/v1/webhooks/events` | List Webhook Events | [Link](https://developer.subotiz.com/reference/v1-webhook-list-webhook-event) |
+| `POST` | `/api/v1/session` | Create Checkout Session | [Link](https://docs.subotiz.com/en/api/v1-checkout-session-create-checkout-session) |
+| `POST` | `/api/v1/trade` | Create Trade | [Link](https://docs.subotiz.com/en/api/v1-trade-create-trade) |
+| `GET` | `/api/v1/trade/{trade_id}` | Get Trade | [Link](https://docs.subotiz.com/en/api/v1-trade-get-trade) |
+| `GET` | `/api/v1/trades` | List Trades | [Link](https://docs.subotiz.com/en/api/v1-trade-list-trade) |
+| `GET` | `/api/v1/subscription/{id}` | Get Subscription | [Link](https://docs.subotiz.com/en/api/v1-subscription-get-subscription) |
+| `POST` | `/api/v1/subscription/{id}/cancel` | Cancel Subscription | [Link](https://docs.subotiz.com/en/api/v1-subscription-cancel-subscription) |
+| `POST` | `/api/v1/subscription/{id}/resume` | Resume Subscription | [Link](https://docs.subotiz.com/en/api/v1-subscription-resume-subscription) |
+| `POST` | `/api/v1/subscription/{id}/renewal` | Renewal Subscription | [Link](https://docs.subotiz.com/en/api/v1-subscription-renewal-subscription) |
+| `POST` | `/api/v1/subscription/{id}/revoke-cancel` | Revoke Cancel | [Link](https://docs.subotiz.com/en/api/v1-subscription-revoke-cancel-subscription) |
+| `GET` | `/api/v1/subscription/{id}/usage` | Get Usage | [Link](https://docs.subotiz.com/en/api/v1-subscription-get-subscription-usage) |
+| `POST` | `/api/v1/subscription/{id}/usage` | Record Usage | [Link](https://docs.subotiz.com/en/api/v1-subscription-record-subscription-usage) |
+| `POST` | `/api/v1/refund` | Create Refund | [Link](https://docs.subotiz.com/en/api/v1-refund-create-refund) |
+| `GET` | `/api/v1/refund/{refund_id}` | Get Refund | [Link](https://docs.subotiz.com/en/api/v1-refund-get-refund) |
+| `GET` | `/api/v1/refunds` | List Refunds | [Link](https://docs.subotiz.com/en/api/v1-refund-list-refund) |
+| `GET` | `/api/v1/customer/{id}` | Get Customer | [Link](https://docs.subotiz.com/en/api/v1-customer-get-customer) |
+| `GET` | `/api/v1/customers` | List Customers | [Link](https://docs.subotiz.com/en/api/v1-customer-list-customer) |
+| `PUT` | `/api/v1/customer/{id}` | Update Customer | [Link](https://docs.subotiz.com/en/api/v1-customer-update-customer) |
+| `DELETE` | `/api/v1/customer/{id}` | Delete Customer | [Link](https://docs.subotiz.com/en/api/v1-customer-delete-customer) |
+| `GET` | `/api/v1/products` | List Products | [Link](https://docs.subotiz.com/en/api/v1-product-list-product) |
+| `GET` | `/api/v1/product/{id}/versions` | List Product Versions | [Link](https://docs.subotiz.com/en/api/v1-product-list-product-version) |
+| `POST` | `/api/v1/product/{id}/status` | Change Product Status | [Link](https://docs.subotiz.com/en/api/v1-product-change-product-status) |
+| `GET` | `/api/v1/prices` | List Prices | [Link](https://docs.subotiz.com/en/api/v1-price-list-price) |
+| `GET` | `/api/v1/price/{id}/versions` | List Price Versions | [Link](https://docs.subotiz.com/en/api/v1-price-list-price-version) |
+| `GET` | `/api/v1/discounts` | List Discounts | [Link](https://docs.subotiz.com/en/api/v1-discount-list-discount) |
+| `GET` | `/api/v1/discount/{id}` | Get Discount | [Link](https://docs.subotiz.com/en/api/v1-discount-get-discount) |
+| `POST` | `/api/v1/discount/{id}/end` | End Discount | [Link](https://docs.subotiz.com/en/api/v1-discount-end-discount) |
+| `GET` | `/api/v1/invoice/{id}` | Get Invoice | [Link](https://docs.subotiz.com/en/api/v1-invoice-get-invoice) |
+| `POST` | `/api/v1/customer-portal/auth` | Customer Portal Auth | [Link](https://docs.subotiz.com/en/api/v1-customer-portal-api-auth) |
+| `GET` | `/api/v1/webhooks/endpoints` | List Webhook Endpoints | [Link](https://docs.subotiz.com/en/api/v1-webhook-list-endpoint) |
+| `GET` | `/api/v1/webhooks/events` | List Webhook Events | [Link](https://docs.subotiz.com/en/api/v1-webhook-list-webhook-event) |
 
 ---
 
@@ -375,14 +375,14 @@ Unmount: `checkout.unmount()`
 
 ### Flow 3: Payment-only (API / SDK)
 
-You control the entire UI; use Subotiz only as a payment engine. Set `mode: "payment"` in the session and skip `line_items`. See: [Embedded Payment](https://developer.subotiz.com/reference/embedded-form-payment).
+You control the entire UI; use Subotiz only as a payment engine. Set `mode: "payment"` in the session and skip `line_items`. See: [Embedded Payment](https://docs.subotiz.com/en/integration/embedded-form-payment).
 
 ### Flow 4: Subscriptions and renewals
 
 1. Create subscription products and pricing in the dashboard.
 2. Customer pays via checkout — initial payment with `payment_mode: "subscription"`.
 3. On `v2.trades.succeeded`, save the `payment_token` from the event data.
-4. For renewals: use [Create Trade](https://developer.subotiz.com/reference/v1-trade-create-trade) API with `payment_token` and `payment_mode: "recurring_payment"`.
+4. For renewals: use [Create Trade](https://docs.subotiz.com/en/api/v1-trade-create-trade) API with `payment_token` and `payment_mode: "recurring_payment"`.
 5. Handle subscription lifecycle events (see [Webhooks](#webhooks)).
 
 ### Flow 5: Customer support (lookup trades, refunds, subscriptions)
@@ -757,16 +757,16 @@ Non-200 responses trigger retries: backoff within 48 hours, up to 16 times. Inte
 | Resource          | URL |
 |-------------------|-----|
 | Subotiz           | <https://subotiz.com> |
-| Developer Center  | <https://developer.subotiz.com> |
-| API Reference     | <https://developer.subotiz.com/v1.0-en-us/reference/overview-1> |
-| Introduction (API)| <https://developer.subotiz.com/reference/introduction-1> |
-| Authentication    | [Bearer](https://developer.subotiz.com/reference/authentication-1) · [Signature](https://developer.subotiz.com/reference/authentication-2) |
-| Webhooks          | <https://developer.subotiz.com/reference/introduction-2> |
-| Subotiz SDK       | <https://developer.subotiz.com/reference/subotiz-sdk> |
-| Quick Start       | <https://developer.subotiz.com/reference/quick-start> |
-| Hosted Checkout   | <https://developer.subotiz.com/reference/hosted> |
-| Embedded Checkout | <https://developer.subotiz.com/reference/embedded-form> |
-| Embedded Payment  | <https://developer.subotiz.com/reference/embedded-form-payment> |
+| Developer Center  | <https://docs.subotiz.com/en> |
+| API Reference     | <https://docs.subotiz.com/en/quick-start/overview> |
+| Introduction (API)| <https://docs.subotiz.com/en/api/introduction-1> |
+| Authentication    | [Bearer](https://docs.subotiz.com/en/api/authentication-1) · [Signature](https://docs.subotiz.com/en/api/authentication-1) |
+| Webhooks          | <https://docs.subotiz.com/en/webhook/introduction-2> |
+| Subotiz SDK       | <https://docs.subotiz.com/en/resources/subotiz-sdk> |
+| Quick Start       | <https://docs.subotiz.com/en/quick-start/quick-start> |
+| Hosted Checkout   | <https://docs.subotiz.com/en/integration/hosted> |
+| Embedded Checkout | <https://docs.subotiz.com/en/integration/embedded-form> |
+| Embedded Payment  | <https://docs.subotiz.com/en/integration/embedded-form-payment> |
 | Dashboard (Prod)  | <https://admin.subotiz.com> |
 | Dashboard (Sandbox) | <https://admin.sandbox.subotiz.com> |
 | Support           | developer@subotiz.com |
